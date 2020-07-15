@@ -1,0 +1,37 @@
+.layui-footer {
+    text-align: center;
+}
+.iconfont {
+    padding-right: 8px;
+}
+.layui-icon {
+    padding: 0 16px 8px;
+}
+iframe{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+body { overflow-x:hidden; }
+
+.user {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    user-select: none;
+}
+.user_pic {
+    display: none;
+}
+.testAwater {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    vertical-align: middle;
+    margin-right: 8px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}

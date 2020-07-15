@@ -1,11 +1,5 @@
 $(function () {
 
-    $.ajaxPrefilter(function (e) {
-        if (e.url.indexOf('http') == 0) return;
-        e.url = 'http://ajax.frontend.itheima.net' + e.url
-    })
-
-
     $('#goReg').click(function () {
         $('.loginBox').hide();
         $('.regBox').show()
